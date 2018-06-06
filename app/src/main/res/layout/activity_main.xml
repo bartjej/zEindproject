@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:text="Dé StudieApp"
+        android:layout_height="42dp"
+        android:text="Evenementen Beoordeling app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,17 +21,17 @@
 
     <Button
         android:id="@+id/naarLijst"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginStart="261dp"
-        android:layout_marginTop="447dp"
+        android:layout_width="126dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="202dp"
         android:onClick="naarLijst"
-        android:text="Mijn lijst"
+        android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>

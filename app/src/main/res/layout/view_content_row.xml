@@ -24,7 +24,6 @@
         android:paddingRight="16dp"
         android:paddingTop="20dp"
         android:text=" EN DEZE TEXT OOK "
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </LinearLayout>
